@@ -1,0 +1,29 @@
+sources:
+  nwm-reanalysis:
+    driver: intake_xarray.xzarr.ZarrSource
+    description: 'National Water Model Reanalysis, version 2.1'
+    args:
+      urlpath: 'reference://'
+      storage_options:
+        simple_templates: True
+        target_options:
+          anon: true
+          compression: 'zstd'
+        target_protocol: s3
+        fo: 's3://esip-qhub-public/noaa/nwm/nwm_reanalysis.json.zst'
+        remote_options:
+          anon: true
+        remote_protocol: s3
+  nwm-forecast:
+    driver: intake_xarray.xzarr.ZarrSource
+    description: 'National Water Model Forecast Best Time Series'
+    args:
+      urlpath: 'reference://'
+      storage_options:
+        target_options:
+          requester_pays: true
+        target_protocol: s3
+        fo: 's3://esip-qhub-public/noaa/nwm/nwm_forecast.json'
+        remote_options:
+          anon: true
+        remote_protocol: s3
