@@ -4,7 +4,7 @@ channels:
   - default
 dependencies:
   # - pangeo-notebook
-  - jupyter-lab
+  - jupyterlab
   # - jupyter-lab<3.3.0
   - pip
   - kerchunk
