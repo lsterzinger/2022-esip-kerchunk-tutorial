@@ -1,0 +1,1 @@
+echo 'distributed:\n  dashboard:\n    link: "/proxy/localhost:8787"' >> ${HOME}/.config/dask/distributed.yaml
