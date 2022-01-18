@@ -4,6 +4,7 @@ channels:
   - default
 dependencies:
   # - pangeo-notebook
+  - python==3.8.*
   - jupyterlab
   # - jupyter-lab<3.3.0
   - pip
@@ -24,8 +25,8 @@ dependencies:
   - intake-xarray
   - datashader
   - nodejs
+  - python-graphviz
   - pip:
-    - graphviz
     - jupyterlab-system-monitor
     - dask-labextension
 
