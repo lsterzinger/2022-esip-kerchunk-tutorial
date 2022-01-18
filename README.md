@@ -6,6 +6,10 @@
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/lsterzinger/2022-esip-kerchunk-tutorial/HEAD)
 
+### Run on GESIS
+*This is a separate service from the [Leibnitz Institute of Social Sciences](https://www.gesis.org/en/home) that hosts its own Binder setup with more memory, and thus may work better that mybinder.org*
+
+[![Binder](https://notebooks.gesis.org/binder/badge_logo.svg)](https://notebooks.gesis.org/binder/v2/gh/lsterzinger/2022-esip-kerchunk-tutorial/HEAD)
 ### Install locally
 ```
 conda env create -f ./environment.yml
