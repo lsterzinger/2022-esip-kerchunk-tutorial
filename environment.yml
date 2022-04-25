@@ -4,6 +4,7 @@ channels:
   - default
 dependencies:
   # - pangeo-notebook
+  - jinja2<3.1
   - python==3.8
   - jupyterlab
   # - jupyter-lab<3.3.0
