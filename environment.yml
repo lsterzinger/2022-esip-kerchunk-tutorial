@@ -10,7 +10,7 @@ dependencies:
   # - jupyter-lab<3.3.0
   - pip
   - kerchunk
-  - fsspec
+  - fsspec>=2023.9.0
   - s3fs
   - h5py
   - xarray[complete]
