@@ -5,12 +5,12 @@ channels:
 dependencies:
   # - pangeo-notebook
   - jinja2<3.1
-  - python==3.8
+  - python>=3.8
   - jupyterlab
   # - jupyter-lab<3.3.0
   - pip
   - kerchunk
-  - fsspec
+  - fsspec>=2023.9.0
   - s3fs
   - h5py
   - xarray[complete]
