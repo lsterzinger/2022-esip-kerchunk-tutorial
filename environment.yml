@@ -28,6 +28,5 @@ dependencies:
   - nodejs
   - python-graphviz
   - pip:
-    - jupyterlab-system-monitor
     - dask-labextension
 
